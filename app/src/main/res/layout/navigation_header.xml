@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigation_header_height"
+    android:background="@drawable/xxi"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/horizontal_margin"
+    android:paddingTop="@dimen/vertical_margin"
+    android:paddingRight="@dimen/horizontal_margin"
+    android:paddingBottom="@dimen/vertical_margin"
+    tools:ignore="Overdraw">
+</LinearLayout>
