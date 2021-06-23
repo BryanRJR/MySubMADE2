@@ -20,7 +20,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@android:color/holo_purple"
-            android:contentDescription="@string/image_description"
+            android:contentDescription="@string/img_desc"
             android:scaleType="centerCrop"
             app:layout_constraintDimensionRatio="H,1.5:1"
             app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +55,7 @@
             app:layout_constraintBottom_toTopOf="@+id/tv_item_subtitle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="@string/text_primary" />
+            tools:text="@string/txt_primary" />
 
         <TextView
             android:id="@+id/tv_item_subtitle"
@@ -69,7 +69,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/iv_item_image"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="@string/text_subtitle" />
+            tools:text="@string/subtitle" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
